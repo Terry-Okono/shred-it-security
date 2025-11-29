@@ -1,1 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 70vh;
+    background: url('https://images.unsplash.com/photo-1529074963764-98f45c47344b')
+    center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero input {
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero button {
+    padding: 12px 20px;
+    background: #c79a1b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
 
