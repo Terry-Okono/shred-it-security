@@ -1,10 +1,32 @@
-shred-it-security/
-├─ app/                 # React app (static web app)
-│  ├─ src/
-│  └─ package.json
-├─ api/                 # Azure Functions (Node.js)
-│  ├─ tracking/
-│  │  └─ index.js
-│  └─ function.json
-├─ .github/workflows/   # (auto-created by Azure SWA or you can add)
-└─ README.md
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHRED-IT SECURITY COMPANY</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+    <h1>SHRED-IT SECURITY COMPANY</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="track.html">Track Shipment</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Fast, Secure & Reliable Shipping</h2>
+    <p>We deliver packages across the globe with trusted logistics solutions.</p>
+
+    <form action="track.html">
+        <input type="text" name="id" placeholder="Enter Tracking Number" required />
+        <button type="submit">Track</button>
+    </form>
+</section>
+
+</body>
+</html>
